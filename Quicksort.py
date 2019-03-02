@@ -1,6 +1,7 @@
 import random
+import numpy
 
-list = [7,8,2,5,46,89,2,3,7,0,1,46,754,7,22,56,38,94,7,4,8]
+#list = [7,8,2,5,46,89,2,3,7,0,1,46,754,7,22,56,38,94,7,4,8]
 
 def quicksort(A,start,end):
 
@@ -23,10 +24,10 @@ def partition(A,start,end):
     i = start
     j = end
 
-    print(pivot)
-    print(start)
-    print(end)
-    print(*A, sep=", ")
+    #print(pivot)
+    #print(start)
+    #print(end)
+    #print(*A, sep=", ")
 
     while(True):
 
@@ -53,6 +54,8 @@ def getPivot(A,start,end):
     A[num] = temp
     return partition(A,start,end)
 
-quicksort(list,0,len(list) - 1)
+#quicksort(list,0,len(list) - 1)
 
-print(*list, sep=", ")
+
+
+#print(*list, sep=", ")
