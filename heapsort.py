@@ -47,16 +47,14 @@ def build_max_heap(arr, count):
     
 def sort(arr):
     count = arr.size
-    arr_copy = numpy.empty(count)
-    arr_copy[:] = arr
 
-    build_max_heap(arr_copy, count)
+    build_max_heap(arr, count)
 
     end = count - 1
 
     while end > 0:
-        swap(arr_copy, end, 0)
+        swap(arr, end, 0)
         end -= 1
-        sift_down(arr_copy, 0, end)
+        sift_down(arr, 0, end)
 
-    return arr_copy
+    return arr
