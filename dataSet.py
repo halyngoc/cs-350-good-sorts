@@ -31,11 +31,10 @@ for x in range(0, 99):
 # reverse order sorting
 # ---------------------------------
 revTimes = numpy.zeros(100, dtype=float)
-rev = numpy.random.randint(0, 1000, 10000)
-rev = numpy.sort(rev, axis=None)
-rev = numpy.flip(rev, 0)
 for x in range(0, 99):
-
+    rev = numpy.random.randint(0, 1000, 10000)
+    rev = numpy.sort(rev, axis=None)
+    rev = numpy.flip(rev, 0)
     start = time.clock()
     mergeSort(rev)
     total = time.clock() - start
