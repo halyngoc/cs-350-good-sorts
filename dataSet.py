@@ -53,3 +53,7 @@ for x in range(0, 99):
     randomFloatTimes[x] = total
 
 # printArray(randomFloatTimes)
+
+# Merge-sort worst case
+# ---------------------------------------
+badTimes = numpy.zeros(100, dtype=float)

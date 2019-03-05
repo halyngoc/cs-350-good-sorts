@@ -7,6 +7,8 @@ def printArray(array):
         print(array[i], end=" ")
     print()
 
+def insertionSort(array):
+    
 
 def mergeSort(array):
     # check to see if array needs to split

@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a5b2864-4d19-40e9-827e-bbe2df42515b" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/mergeHybrid.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dataSet.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataSet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mergeSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/mergeSort.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,17 +31,29 @@
       <file leaf-file-name="mergeSort.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mergeSort.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1173">
-              <caret line="69" column="1" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
+            <state relative-caret-position="546">
+              <caret line="74" lean-forward="true" selection-end-line="74" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dataSet.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mergeHybrid.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mergeHybrid.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+              <folding>
+                <marker date="1551746810305" expanded="true" signature="178:185" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dataSet.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dataSet.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-17">
-              <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+            <state relative-caret-position="1003">
+              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -70,10 +85,11 @@
         <option value="$PROJECT_DIR$/mergeSortTest.py" />
         <option value="$PROJECT_DIR$/mergeSort.py" />
         <option value="$PROJECT_DIR$/dataSet.py" />
+        <option value="$PROJECT_DIR$/mergeHybrid.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -113,7 +129,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.dataSet">
+  <component name="RunManager" selected="Python.mergeHybrid">
     <configuration name="Merge-Sort" type="PythonConfigurationType" factoryName="Python">
       <module name="cs-350-good-sorts" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -145,6 +161,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataSet.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="mergeHybrid" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="cs-350-good-sorts" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mergeHybrid.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -191,9 +225,11 @@
       <item itemvalue="Python.mergeSortTest" />
       <item itemvalue="Python.Merge-Sort" />
       <item itemvalue="Python.dataSet" />
+      <item itemvalue="Python.mergeHybrid" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.mergeHybrid" />
         <item itemvalue="Python.dataSet" />
       </list>
     </recent_temporary>
@@ -212,19 +248,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23695198" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.118229166" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32306057" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32618025" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -243,6 +279,33 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/mergeSortTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mergeSort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="69" column="1" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataSet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="41" column="22" lean-forward="true" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mergeSortTest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -265,13 +328,6 @@
     <entry file="file://$PROJECT_DIR$/Merge-Sort.py" />
     <entry file="file://$PROJECT_DIR$/heapsort.py" />
     <entry file="file://$PROJECT_DIR$/Merge-Sort.py" />
-    <entry file="file://$PROJECT_DIR$/mergeSort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="69" column="1" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mergeSortTest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -282,12 +338,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mergeSort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="74" lean-forward="true" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dataSet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        <state relative-caret-position="1003">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mergeHybrid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <folding>
+            <marker date="1551746810305" expanded="true" signature="178:185" ph="..." />
           </folding>
         </state>
       </provider>
