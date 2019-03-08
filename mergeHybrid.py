@@ -7,27 +7,39 @@ def printArray(array):
         print(array[i], end=" ")
     print()
 
+
 def insertionSort(array):
-    
 
-def mergeSort(array):
+    # Sort each element
+    for i in range(1, len(array)):
+
+        key = array[i]
+
+        j = i-1
+        while j >= 0 and key < array[j]:
+            array[j+1] = array[j]
+            j -= 1
+        array[j+1] = key
+    return
+
+
+def mergeSortHybrid(array):
     # check to see if array needs to split
-    #count = array.size
+    # count = array.size
     tempArray = numpy.copy(array)
-    #tempArray[:] = array
+    # tempArray[:] = array
 
-    if len(array) > 1:
+    if len(array) > 10:
 
         # split array
         mid = len(array) // 2
         left = array[:mid]
         right = array[mid:]
-        #printArray(left)
-        #printArray(right)
+        # printArray(left)
+        # printArray(right)
 
-
-        right = mergeSort(right) # sort right half
-        left = mergeSort(left)  # sort left half
+        right = mergeSortHybrid(right)  # sort right half
+        left = mergeSortHybrid(left)  # sort left half
         x = 0
         y = 0
         z = 0
@@ -43,9 +55,7 @@ def mergeSort(array):
                 y += 1
             z += 1
 
-
         # check for remaining elements in both sub arrays
-
         while x < len(left):
             tempArray[z] = left[x]
             x += 1
@@ -55,22 +65,13 @@ def mergeSort(array):
             tempArray[z] = right[y]
             y += 1
             z += 1
+    else:
+        insertionSort(tempArray)
     return tempArray
 
 
-
-
-# Main function
-
-#array = [43, 45, 765, 23, 2314, 8729, 12383, 77, 9, 23, 5, 2]
-#array2 = numpy.array([1, 7, 2, 5, 14, 11, 10])
-#printArray(array2)
-
-#mergeSort(array)
-
-
-#printArray(mergeSort(array2))
-#printArray(array)
-
-
+# array2 = numpy.array([1, 7, 324, 45, 83, 33, 25, 37, 4, 80, 4567, 1, 57, 2, 5, 14, 11, 10])
+# printArray(array2)
+# array2 = mergeSortHybrid(array2)
+# printArray(array2)
 
