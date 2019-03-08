@@ -13,9 +13,9 @@ from heapsort import sort
 # randomTimes = numpy.zeros(100, dtype=float)
 # for x in range(0, 100):
 #    array = numpy.random.randint(0, 10000, 10000)
-#    start = time.clock()
+#    start = time.perf_counter()
 #    sort(array)
-#    total = time.clock() - start
+#    total = time.perf_counter() - start
 #    randomTimes[x] = total
 # printArray(randomTimes)
 # print("Mean time for random sorts: ", numpy.mean(randomTimes))
@@ -28,23 +28,23 @@ from heapsort import sort
 # for x in range(0, 99):
 #    array = numpy.random.randint(0, 1000, 10000)
 #   array = numpy.sort(array)
-#   start = time.clock()
+#   start = time.perf_counter()
 #   mergeSort(array)
-#   total = time.clock() - start
+#   total = time.perf_counter() - start
 #   sortedTimes[x] = total
 # printArray(sortedTimes)
 
 
 # reverse order sorting
 # ---------------------------------
-revTimes = numpy.zeros(1, dtype=float)
+revTimes = numpy.zeros(1000, dtype=float)
 for x in range(0, 1000):
     rev = numpy.random.randint(0, 1000, 1000)
     rev = numpy.sort(rev, axis=None)
     rev = numpy.flip(rev, 0)
-    start = time.clock()
+    start = time.perf_counter()
     insertionSort(rev)
-    total = time.clock() - start
+    total = time.perf_counter() - start
     revTimes[x] = total
 # printArray(revTimes)
 print("Mean for reverse order heap (s): ", numpy.mean(revTimes))
@@ -57,9 +57,9 @@ print("Mean for reverse order heap (s): ", numpy.mean(revTimes))
 # randomFloatTimes = numpy.zeros(100, dtype=float)
 # for x in range(0, 99):
 #    array = numpy.random.rand(0, 10, 10000000)
-#    start = time.clock()
+#    start = time.perf_counter()
 #    mergeSort(array)
-#    total = time.clock() - start
+#    total = time.perf_counter() - start
 #    randomFloatTimes[x] = total
 
 # printArray(randomFloatTimes)
